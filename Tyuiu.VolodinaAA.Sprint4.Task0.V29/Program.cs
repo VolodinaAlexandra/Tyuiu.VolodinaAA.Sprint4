@@ -33,7 +33,7 @@ namespace Tyuiu.VolodinaAA.Sprint4.Task0.V29
             Console.WriteLine("Исходный массив ");
             for (int i = 0; i <= array.Length-1; i++)
             {
-                Console.WriteLine(array[i]);
+                Console.WriteLine(array[i]); 
             }
             int res = ds.GetSumOddArrEl(array);
             Console.WriteLine("***************************************************************************");

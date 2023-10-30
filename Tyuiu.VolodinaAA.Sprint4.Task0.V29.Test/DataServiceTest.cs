@@ -14,7 +14,7 @@ namespace Tyuiu.VolodinaAA.Sprint4.Task0.V29.Test
             int[] array = { 7, 4, 3, 2, 1, 5, 9, 8, 7, 4 };
             int res = ds.GetSumOddArrEl(array);
             int wait = 32;
-            Assert.AreEqual(wait, res);
+            Assert.AreEqual(wait, res);  
         }
     }
 }
